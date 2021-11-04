@@ -27,7 +27,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(67, 167, 167);
+    background-color: rgb(81, 199, 199);
     justify-content: right;
 
 }
