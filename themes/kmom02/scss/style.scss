@@ -1,0 +1,34 @@
+@import '../../node_modules/normalize.css/normalize';
+
+@import 'header.scss';
+@import 'footer.scss';
+
+@import 'variables';
+
+@import 'img.scss';
+@import 'blockquotes';
+@import 'code';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Mohave:wght@300&display=swap');
+
+* {
+    color: $font-color;
+    font-family: 'Mohave', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+body {
+    background-color: $background-color;
+    background-image: url(../../../assets/img/background_ball.png);
+    margin: 20px 70px;
+}
