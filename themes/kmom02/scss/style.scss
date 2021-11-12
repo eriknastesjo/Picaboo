@@ -1,11 +1,11 @@
 @import '../../node_modules/normalize.css/normalize';
 
-@import 'header.scss';
-@import 'footer.scss';
+@import 'header';
+@import 'footer';
 
 @import 'variables';
 
-@import 'img.scss';
+@import 'img';
 @import 'blockquotes';
 @import 'code';
 
@@ -22,13 +22,18 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     font-family: 'Mohave', sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 
 body {
     background-color: $background-color;
-    background-image: url(../../../assets/img/background_ball.png);
+    background-image: url('../../../assets/img/background_ball.png');
     margin: 20px 70px;
 }
