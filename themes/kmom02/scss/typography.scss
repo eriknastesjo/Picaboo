@@ -13,9 +13,14 @@ h3,
 h4,
 h5,
 h6 {
+    font-size: $main-title-size;
+    margin-top: $margin-top-title em;
+    margin-bottom: $margin-bottom-title em;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-p {
-    font-size: 1em;
+.main p {
+    font-size: $main-paragraph-size;
+    margin-bottom: $margin-bottom-paragraph;
+    letter-spacing: $letter-spacing;
 }

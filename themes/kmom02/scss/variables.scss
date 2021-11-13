@@ -1,3 +1,5 @@
+
+// COLORS
 $font-color: #0b4053;
 $font-alternative-color: #fff;
 $accent-color: #ee6c4d;
@@ -7,3 +9,12 @@ $background-color-footer: #0b4053;
 $item-color: #a35705;
 $item-color2: #f09737;
 $item-color3: #157da3;
+
+// FONT SIZE
+$main-title-size: 2em;
+$main-paragraph-size: 1.2em;
+$main-line-height: 1.4;
+$margin-bottom-paragraph: $main-paragraph-size * $main-line-height;
+$margin-top-title: 1.5 * $main-line-height;
+$margin-bottom-title: 1 * $main-line-height;
+$letter-spacing: 0.1em;

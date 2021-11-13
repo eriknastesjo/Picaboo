@@ -6455,10 +6455,12 @@ readers do not read off random characters that represent icons */
 body {
   background-color: #54d1ff;
   background-image: url("../../../assets/img/background_ball.png");
+  margin-top: 25px;
 }
 
 .main {
-  margin: 20px 70px;
+  max-width: 700px;
+  margin: 20px 160px;
 }
 
 * {
@@ -6476,11 +6478,16 @@ h3,
 h4,
 h5,
 h6 {
+  font-size: 2em;
+  margin-top: 2.1 em;
+  margin-bottom: 1.4 em;
   font-family: "Mochiy Pop P One", sans-serif;
 }
 
-p {
-  font-size: 1em;
+.main p {
+  font-size: 1.2em;
+  margin-bottom: 1.68em;
+  letter-spacing: 0.1em;
 }
 
 .horiz-img {
@@ -6530,27 +6537,34 @@ pre code {
   flex-direction: column;
   gap: 20px;
 }
-.header .site-header {
+
+.site-header {
   margin: auto;
   display: flex;
   justify-content: center;
   gap: 50px;
 }
-.header .site-header .title {
+.site-header .title {
   margin-top: 20px;
   text-align: center;
 }
-.header .nav ul {
+.site-header h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
   gap: 20px;
 }
-.header .nav ul li a {
+
+.nav ul li a {
   background-color: #f09737;
   padding: 1em 3em;
 }
-.header .nav ul li a:hover {
+.nav ul li a:hover {
   background-color: #34b89b;
 }
 
@@ -6560,19 +6574,20 @@ pre code {
   justify-content: flex-end;
   background-color: #0b4053;
 }
+
 .footer div > * {
   color: #fff;
-  padding: 5px;
+  padding: 0 8px;
 }
 .footer div > * .fab {
   color: #fff;
   font-size: 2rem;
-  padding: 5px;
+  padding: 0 8px;
 }
 .footer div > * .fa {
   color: #fff;
   font-size: 2rem;
-  padding: 5px;
+  padding: 0 8px;
 }
 
 @media (max-width: 767px) {
@@ -6601,5 +6616,9 @@ pre code {
 
   .horiz-img {
     max-width: 200px;
+  }
+
+  .main {
+    margin: 20px 70px;
   }
 }
