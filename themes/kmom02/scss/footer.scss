@@ -1,4 +1,25 @@
 .footer {
     display: flex;
+    padding-top: 10px;
     justify-content: flex-end;
+    background-color: $background-color-footer;
+
+
+}
+
+.footer div>* {
+    color: $font-alternative-color;
+    padding: 5px;
+
+    .fab {
+        color: $font-alternative-color;
+        font-size: 2rem;
+        padding: 5px;
+    }
+
+    .fa {
+        color: $font-alternative-color;
+        font-size: 2rem;
+        padding: 5px;
+    }
 }

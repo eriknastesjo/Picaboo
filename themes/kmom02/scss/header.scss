@@ -9,12 +9,13 @@
 .site-header {
     margin: auto;
     display: flex;
+    justify-content: center;
     gap: 50px;
-}
 
-.title {
-    margin-top: 20px;
-    text-align: center;
+    .title {
+        margin-top: 20px;
+        text-align: center;
+    }
 }
 
 .nav ul {
@@ -24,11 +25,13 @@
     gap: 20px;
 }
 
-.nav ul li a {
-    background-color: $item-color2;
-    padding: 1em 3em;
-}
+.nav ul li {
+    a {
+        background-color: $item-color2;
+        padding: 1em 3em;
+    }
 
-.nav ul li a:hover {
-    background-color: rgb(52, 184, 155);
+    a:hover {
+        background-color: rgb(52, 184, 155);
+    }
 }
