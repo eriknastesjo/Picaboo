@@ -1,6 +1,7 @@
 @import 'variables';
 
 .header {
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -32,7 +33,7 @@
 
 .nav ul li {
     a {
-        background-color: $item-color2;
+        background-color: $yellow;
         padding: 1em 3em;
     }
 

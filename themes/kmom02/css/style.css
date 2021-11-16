@@ -6455,7 +6455,6 @@ readers do not read off random characters that represent icons */
 body {
   background-color: #54d1ff;
   background-image: url("../../../assets/img/background_ball.png");
-  margin-top: 25px;
 }
 
 .main {
@@ -6533,6 +6532,7 @@ pre code {
 }
 
 .header {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -6588,6 +6588,42 @@ pre code {
   color: #fff;
   font-size: 2rem;
   padding: 0 8px;
+}
+
+.container {
+  margin: 20px 160px;
+  display: grid;
+  gap: 1em 1em;
+}
+.container h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
+  background-color: #ffa13c;
+}
+.kmom-box > * {
+  padding: 10px 15px 12px 15px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.kmom-box h2 {
+  font-size: 1.5em;
+  color: #f09737;
+  background-color: #0b4053;
+  text-shadow: 1.5px 1.5px 2px black;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.281);
+}
+.kmom-box p {
+  color: #0b4053;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
 }
 
 @media (max-width: 767px) {

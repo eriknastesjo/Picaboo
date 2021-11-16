@@ -1,17 +1,19 @@
 
 // COLORS
-$font-color: #0b4053;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
 $background-img: url('../../../assets/img/background_ball.png');
-$background-color: #54d1ff;
-$background-color-footer: #0b4053;
-$item-color: #a35705;
-$item-color2: #f09737;
-$item-color3: #157da3;
+$blue-light: #54d1ff;
+$blue: #157da3;
+$blue-dark: #0b4053;
+$white:#fff;
+$yellow-light: #ffa13c;
+$yellow: #f09737;
+$yellow-dark: #a35705;
+
+
 
 // FONT SIZE
 $main-title-size: 2em;
+$main-subtitle-size: 1.5em;
 $main-paragraph-size: 1.2em;
 $main-line-height: 1.4;
 $margin-bottom-paragraph: $main-paragraph-size * $main-line-height;
