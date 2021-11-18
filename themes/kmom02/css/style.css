@@ -6563,6 +6563,7 @@ pre code {
   justify-content: center;
   list-style: none;
   gap: 20px;
+  padding: 0;
 }
 
 .nav ul li a {
