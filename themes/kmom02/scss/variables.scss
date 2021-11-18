@@ -8,6 +8,7 @@ $white:#fff;
 $yellow-light: #ffa13c;
 $yellow: #f09737;
 $yellow-dark: #a35705;
+$green: rgb(52, 184, 155);
 
 
 
@@ -20,3 +21,7 @@ $margin-bottom-paragraph: $main-paragraph-size * $main-line-height;
 $margin-top-title: 1.5 * $main-line-height;
 $margin-bottom-title: 1 * $main-line-height;
 $letter-spacing: 0.1em;
+
+// SECIAL EFFECTS
+$text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.281);
+$box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.281);

@@ -2,11 +2,14 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-    <div class="main" role="main">
-        <div class="container-three-columns">
-            {{ content }}
+
+    <div class="container-two-columns">
+        <div class="techinfo">
+        {{ content }}
         </div>
+        {% include 'incl/nav-tech.twig' %}
     </div>
+
     {% include 'incl/footer.twig' %}
 </body>
 

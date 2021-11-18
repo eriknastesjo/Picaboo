@@ -1,4 +1,4 @@
-@media (max-width: 767px) {
+@media (max-width: 800px) {
     .slide {
         overflow-y: hidden !important;
         transition: height 0.5s ease-in !important;
@@ -32,4 +32,23 @@
     .main {
         margin: 20px 70px;
     }
+
+    .container-three-columns {
+        grid-template-columns: 1fr;
+            h1 {
+        grid-column: span 1;
+        grid-gap: 1em 0;
+    }
+    }
+    .box.project {
+    grid-column: span 1;
+}
+    .container-two-columns{
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .nav-tech {
+        display: none;
+    }
+
 }

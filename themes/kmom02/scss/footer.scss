@@ -3,23 +3,21 @@
     padding-top: 10px;
     justify-content: flex-end;
     background-color: $blue-dark;
-
+    padding-right: 10px;
 
 }
 
 .footer div>* {
     color: $white;
-    padding: 0 8px;
+    padding: 0 4px;
 
     .fab {
         color: $white;
         font-size: 2rem;
-        padding: 0 8px;
     }
 
     .fa {
         color: $white;
         font-size: 2rem;
-        padding: 0 8px;
     }
 }

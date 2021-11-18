@@ -1,36 +1,51 @@
-.container {
+.container-three-columns {
     margin: 20px 160px;
     display: grid;
-    gap: 1em 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
     h1 {
         grid-column: span 3;
         justify-self: center;
+        text-shadow: $text-shadow;
+        color: $yellow;
+        background-color: $blue-dark;
+        padding: 10px 30px;
     }
 }
 
-.kmom-box {
+.box {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
     background-color: $yellow-light;
-    > * {
-        padding: 10px 15px 12px 15px;
-        margin: 0px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
+    padding-bottom: 10px;
+}
+.box:hover {
+    background-color: $green;
+}
+
+.box a {
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
     h2 {
-        font-size: $main-subtitle-size;
-        color: $yellow;
-        background-color: $blue-dark;
-        text-shadow: 1.5px 1.5px 2px black;
-        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.281);
+    padding: 10px 15px 12px 15px;
+    margin: 0px;
+    font-size: $main-subtitle-size;
+    color: $yellow;
+    background-color: $blue-dark;
+    text-shadow: $text-shadow;
+    box-shadow: $box-shadow;
     }
     p {
         color: $blue-dark;
     }
 }
 
-.kmom-box.project {
+.box.project {
     grid-column: span 3;
 }
 
