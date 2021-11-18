@@ -1,8 +1,7 @@
 .container-three-columns {
-    margin: 20px 160px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: 1fr;
+    margin-bottom: 20px;
     grid-gap: 1em;
     h1 {
         grid-column: span 3;
