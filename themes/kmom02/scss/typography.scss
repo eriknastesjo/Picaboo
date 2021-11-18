@@ -14,14 +14,16 @@ h4,
 h5,
 h6 {
     font-size: $main-title-size;
-    margin-top: $margin-top-title em;
-    margin-bottom: $margin-bottom-title em;
+    margin-top: 0;
+    margin-bottom: $margin-bottom-title;
     font-family: 'Mochiy Pop P One', sans-serif;
     text-align: center;
+    line-height: $main-line-height;
 }
 
 .main p {
     font-size: $main-paragraph-size;
     margin-bottom: $margin-bottom-paragraph;
     letter-spacing: $letter-spacing;
+    line-height: $main-line-height;
 }
