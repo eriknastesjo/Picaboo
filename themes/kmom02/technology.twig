@@ -8,7 +8,16 @@
             <div class="techinfo">
             {{ content }}
             </div>
-            {% include 'incl/nav-tech.twig' %}
+            <div class="nav-tech">
+                {% for page in pages("technologies") %}
+
+                        <a href="{{ page.url }}">
+                        <h2>{{page.title}}</h2>
+                        </a>
+
+                {% endfor %}
+            </div>
+            {# {% include 'incl/nav-tech.twig' %} #}
         </div>
     </div>
 
