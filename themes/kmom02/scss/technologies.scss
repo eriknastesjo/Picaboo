@@ -24,6 +24,10 @@
     background-color: $green;
 }
 
+.box:last-child {
+    grid-column: span 3;
+}
+
 .box a {
     margin: 0;
     text-align: center;
@@ -45,9 +49,5 @@
     p {
         margin: 1em;
     }
-}
-
-.box.project {
-    grid-column: span 3;
 }
 

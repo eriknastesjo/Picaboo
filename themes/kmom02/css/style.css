@@ -6623,6 +6623,10 @@ pre code {
   background-color: #34b89b;
 }
 
+.box:last-child {
+  grid-column: span 3;
+}
+
 .box a {
   margin: 0;
   text-align: center;
@@ -6642,10 +6646,6 @@ pre code {
 }
 .box a p {
   margin: 1em;
-}
-
-.box.project {
-  grid-column: span 3;
 }
 
 .container-two-columns {

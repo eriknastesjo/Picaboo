@@ -4,10 +4,10 @@
     {% include 'incl/nav.twig' %}
     <div class="main" role="main">
         <div class="container-three-columns">
-            {# {{ content }} #}
+            {{ content }}
             {%  for page in pages("technologies") %}
                 <div class="box">
-                    <a href="%base_url%?technologies/html">
+                    <a href="{{page.url}}">
                         <h2>{{page.title}}</h2>
                         <p>{{page.description}}</p>
                         <i class="fas fa-arrow-circle-right fa-2x"></i>
@@ -15,17 +15,7 @@
                 </div>
             {% endfor %}
         </div>
-
-
-
-         {# {% for page in pages("blog")|sort_by("time")|reverse if not page.hidden %}
-     <div class="post">
-         <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-         <p class="date">{{ page.date_formatted }}</p>
-         <p class="excerpt">{{ page.description }}</p>
-     </div>
-        {% endfor %}
-    </div> #}
+    </div>
     {% include 'incl/footer.twig' %}
 </body>
 
