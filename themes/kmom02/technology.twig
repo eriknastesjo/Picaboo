@@ -9,15 +9,13 @@
             {{ content }}
             </div>
             <div class="nav-tech">
-                {% for page in pages("technologies") %}
-
+                {% for page in pages("technology") %}
                         <a href="{{ page.url }}">
                         <h2>{{page.title}}</h2>
                         </a>
 
                 {% endfor %}
             </div>
-            {# {% include 'incl/nav-tech.twig' %} #}
         </div>
     </div>
 

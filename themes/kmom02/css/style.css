@@ -6602,7 +6602,7 @@ pre code {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom: 20px;
-  grid-gap: 1em;
+  gap: 1em;
 }
 .container-three-columns h1 {
   grid-column: span 3;
@@ -6651,7 +6651,7 @@ pre code {
 .container-two-columns {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-gap: 0 2em;
+  gap: 0 2em;
   margin-bottom: 20px;
   text-align: center;
 }
