@@ -42,7 +42,7 @@
         }
     }
 
-    .box.project {
+    .box:last-child {
         grid-column: span 1;
     }
 

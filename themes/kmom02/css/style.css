@@ -6733,7 +6733,7 @@ pre code {
     grid-gap: 1em 0;
   }
 
-  .box.project {
+  .box:last-child {
     grid-column: span 1;
   }
 
