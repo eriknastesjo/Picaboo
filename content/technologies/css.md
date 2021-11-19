@@ -1,6 +1,7 @@
 ---
 Title: CSS
 Template: technology
+Description: Webbens ansikte utåt, och sköter alltså allt som har med design att göra.
 ---
 
 CSS

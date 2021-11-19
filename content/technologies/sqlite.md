@@ -1,6 +1,7 @@
 ---
 Title: SQL
 Template: technology
+Description: Används för att hämta och modifiera data i en relationsdatabas.
 ---
 
 

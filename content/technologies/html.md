@@ -1,6 +1,7 @@
 ---
 Title: HTML
 Template: technology
+Description: Ett märkspråk som utgör grundstommen för att definiera strukturen på en hemsida.
 ---
 
 

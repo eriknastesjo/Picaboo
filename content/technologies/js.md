@@ -1,6 +1,7 @@
 ---
 Title: JS
 Template: technology
+Description: Får saker att "hända" på hemsidan och gör den mer interaktiv och skojig.
 ---
 
 

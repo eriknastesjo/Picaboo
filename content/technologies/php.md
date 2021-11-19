@@ -1,6 +1,7 @@
 ---
 Title: PHP
 Template: technology
+Description: Ett populärt språk att använda på "backend"-sidan och som används för mer avancerade funktioner där HTML inte räcker till.
 ---
 
 

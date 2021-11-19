@@ -1,6 +1,7 @@
 ---
 Title: Python
 Template: technology
+Description: Ett vanligt som nybörjarspråk och inom undervisning, men också som generellt tillämpbart programspråk.
 ---
 
 

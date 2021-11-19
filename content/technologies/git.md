@@ -1,6 +1,7 @@
 ---
 Title: GIT
 Template: technology
+Description: Ett program som används av utvecklare för att hålla reda på ändringar av programkod.
 ---
 
 
