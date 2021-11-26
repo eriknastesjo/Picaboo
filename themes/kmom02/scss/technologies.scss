@@ -5,23 +5,30 @@
     gap: 1em;
 
     h1 {
+        // margin: auto;
+        // transform: rotate(-90deg);
         grid-column: span 3;
-        justify-self: center;
-        text-shadow: $text-shadow;
-        color: $yellow;
-        background-color: $blue-dark;
+        // justify-self: center;
+        // text-shadow: $text-shadow;
+        // background-image: $col-box;
         padding: 10px 30px;
     }
 }
 
 .box {
-    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
-    background-color: $yellow-light;
+    // box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
+    background-image: $col-box-alt;
     padding-bottom: 10px;
+    border: $border-alternative;
+    border-radius: $border-radius;
+    // grid-column: span 2.66;
+    transition: $transition;
 }
 
 .box:hover {
-    background-color: $green;
+    background-image: $col-box-hover;   // NOT WORKING??
+    border: $border-hover;
+    transform: $transform-small;    // NOT WORKING??
 }
 
 .box:last-child {
@@ -37,17 +44,20 @@
     height: 100%;
 
     h2 {
-        padding: 10px 15px 12px;
-        margin: 0;
-        font-size: $main-subtitle-size;
-        color: $yellow;
-        background-color: $blue-dark;
-        text-shadow: $text-shadow;
-        box-shadow: $box-shadow;
+        // border: $border-alternative;
+        // border-radius: $border-radius;
+        // padding: 10px 15px 12px;
+        margin-top: 25px;
+        // margin: 0;
+        // font-size: $main-subtitle-size;
+        // color: $col-title;
+        // background-image: $col-box-hover;
+        // text-shadow: $text-shadow;
+        // box-shadow: $box-shadow;
     }
 
     p {
-        margin: 1em;
+        margin: 0 1em 1em;
     }
 }
 

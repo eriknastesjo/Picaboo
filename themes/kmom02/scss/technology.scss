@@ -9,8 +9,8 @@
         grid-column: span 2;
         justify-self: center;
         text-shadow: $text-shadow;
-        color: $yellow;
-        background-color: $blue-dark;
+        color: $col-title;
+        background-color: $col-box;
         padding: 10px 30px;
         margin-top: 0;
     }
@@ -23,16 +23,27 @@
 }
 
 .nav-tech a {
+
     h2 {
-        background-color: $yellow;
+        // color: $col-navbox;
         padding: 10px;
         border: solid 4px;
         margin: 0;
-        font-size: $main-subtitle-size;
+
+        background-image: $col-box-alt;
+        border: $border-alternative;
+        border-radius: $border-radius;
+        transition: $transition;
+
+        margin-bottom: 9px;
     }
 
     h2:hover {
-        background-color: $green;
+        background-color: $col-box-hover;
+        transform: $transform-big;
+        background-image: $col-box-hover;
+        border: $border-hover;
+        border-radius: $border-radius;
     }
 }
 
@@ -42,9 +53,5 @@
 
     pre {
         text-align: justify;
-    }
-
-    a {
-        color: $yellow-dark;
     }
 }

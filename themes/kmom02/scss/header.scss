@@ -8,10 +8,15 @@
 }
 
 .site-header {
+    border: $border-standard;
+    border-radius: $border-radius;
+    // box-shadow: $box-shadow;
     margin: auto;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    padding: 5px 30px;
+    background-image: $col-box;
+    transition: $transition;
 
     .title {
         margin-top: 20px;
@@ -21,7 +26,12 @@
     h1 {
         font-size: 3em;
         margin-bottom: 0;
+        border: none;
+        background-image: none;
     }
+}
+.site-header:hover {
+    transform: $transform-small;
 }
 
 .nav ul {
@@ -33,12 +43,16 @@
 }
 
 .nav ul li {
-    a {
-        background-color: $yellow;
-        padding: 1em 3em;
-    }
+    border: $border-alternative;
+    border-radius: $border-radius;
+    background-image: $col-box-alt;
+    padding: 0.5em 1.5em;
+    transition: $transition;
+}
 
-    a:hover {
-        background-color: $green;
-    }
+.nav ul li:hover {
+
+    transform: $transform-big;
+    background-image: $col-box-hover;
+    border: $border-hover;
 }

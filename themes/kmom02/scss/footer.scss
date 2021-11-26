@@ -2,21 +2,21 @@
     display: flex;
     padding-top: 10px;
     justify-content: flex-end;
-    background-color: $blue-dark;
+    background-color: $col-footer;
     padding-right: 10px;
 }
 
 .footer div>* {
-    color: $white;
+    color: $col-text-alt;
     padding: 0 4px;
 
     .fab {
-        color: $white;
+        color: $col-icons;
         font-size: 2rem;
     }
 
     .fa {
-        color: $white;
+        color: $col-icons;
         font-size: 2rem;
     }
 }

@@ -1,25 +1,45 @@
-// COLORS
-$background-img: url('../../../assets/img/background_ball.png');
-$blue-light: #54d1ff;
-$blue: #157da3;
-$blue-dark: #0b4053;
-$white: #fff;
-$yellow-light: #ffa13c;
-$yellow: #f09737;
-$yellow-dark: #a35705;
-$green: rgb(52, 184, 155);
+//BOX
+$border-standard: 3.5px solid #6aa5a8;
+$border-alternative: 3.5px solid #a86088;
+$border-hover: 3.5px solid #b19900;
+$border-radius: 50px;
 
+// COLORS
+$background-img: linear-gradient(to right,#dcf3f7, #dcf6fa 5%, #dcf6fa 95%, #c9e2e6);
+$col-background: #3a7c94;
+
+$col-box: linear-gradient(#d4fbff, #c1eff5 5%, #c1eff5 95%, #b8e3e9);
+$col-box-alt: linear-gradient(#fc8eca, #f580C0 5%, #f580C0 95%, #db74ad);
+$col-box-hover: linear-gradient(#ffdf13, #f5d400 5%, #f5d400 95%, #e2c400);
+
+$col-title: #13607c;
+$col-title-alt: #157da3;
+$col-text: #0b4053;
+$col-text-alt: #fff;
+$col-text-hover: #f5d400;
+
+$col-footer: #0b4053;
+$col-icons: #fff;
+
+//ANIMATION
+$transition: 0.15s all ease;
+$transform-small: scale(1.1);
+$transform-big: scale(1.2);
+
+// FONT STYLE
+$font-title-style: 'Nunito', sans-serif;
+$font-text-style: 'Nunito', sans-serif;
 
 
 // FONT SIZE
-$main-title-size: 2em;
-$main-subtitle-size: 1.5em;
+$main-title-size: 3em;
+$main-subtitle-size: 2em;
 $main-paragraph-size: 1.2em;
 $main-line-height: 1.4;
 $margin-bottom-paragraph: $main-paragraph-size * $main-line-height;
 $margin-bottom-title: 0.2em * $main-line-height;
 $letter-spacing: 0.1em;
 
-// SECIAL EFFECTS
+// SECIAL EFFECTS   (ej använda längre)
 $text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.281);
-$box-shadow: 0 2px 1px rgba(0, 0, 0, 0.281);
+$box-shadow: 0 5px 1px rgba(0, 0, 0, 0.04);
