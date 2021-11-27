@@ -50,8 +50,8 @@ Resultat
 <!-- Notera i en mening om du anser att webbplatsens färgval och typografi motsvarar den profil du tror att webbplatsen vill ha. [] [] [] -->
 
 ## Karlskrona HK
-![Skärmdump webbplats Karlskrona HK](%assets_url%/img/karlskronahk.png){.horiz-img}
-![Adobes färgschema Karlskrona HK](%assets_url%/img/karlskronahkcolorscheme.png){.vert-img}
+![Skärmdump webbplats Karlskrona HK](%assets_url%/img/KarlskronaHK.png){.horiz-img}
+![Adobes färgschema Karlskrona HK](%assets_url%/img/karlskronahkColorscheme.png){.vert-img}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #e84e0f">
@@ -71,7 +71,7 @@ Stil och syfte: Webbsidan har ett färgstarkt och tufft uttryck som vägs mot en
 
 ## McDonalds
 ![Skärmdump webbplats McDonalds](%assets_url%/img/mcdonalds.png){.horiz-img}
-![Adobes färgschema McDonalds](%assets_url%/img/mcdonaldscolorscheme.png){.vert-img}
+![Adobes färgschema McDonalds](%assets_url%/img/mcdonaldsColorscheme.png){.vert-img}
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #fcbd0c">
@@ -93,7 +93,7 @@ Stil och syfte: Webbsidans använder kulörstark gul färg och användarvänlig 
 
 ## Playdead
 ![Skärmdump webbplats Playdead](%assets_url%/img/playdead.png){.horiz-img}
-![Adobes färgschema Playdead](%assets_url%/img/playdeadcolorscheme.png){.vert-img}
+![Adobes färgschema Playdead](%assets_url%/img/playdeadColorscheme.png){.vert-img}
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
