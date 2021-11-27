@@ -2,7 +2,7 @@
     background-image: $logo;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 126px;
+    width: 152px;
 }
 
 .header {
@@ -31,10 +31,11 @@
     h1 {
         font-size: 3em;
         margin-bottom: 0;
-        border: none;
+        border: 0;
         background-image: none;
     }
 }
+
 .site-header:hover {
     transform: $transform-small;
 }
