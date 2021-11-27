@@ -16,7 +16,8 @@ De webbplatser som vi har valt är
 * Karlskrona HC - en webbplats för Karlskronas hockeyklubb
 * McDonalds - en webbplats för en vida känd snabbmatskedja
 * Playdead - en webbplats för ett indiespelsbolag
-Vi har valt dessa tre webbplatser för att deras grundsyfte skiljer sig starkt åt. Vi vill se hur skillnaden i grundsyftet kan spegla skillnader i vilka skillnader vi kan se i valet av färgsättning men också om det kan finnas likheter mellan dem.
+
+Vi har valt dessa tre webbplatser för att deras grundsyfte skiljer sig starkt åt. Vi vill se hur skillnaden i grundsyftet kan spegla skillnader i valet av färgsättning.
 
 <!-- ### Krav
 
@@ -82,7 +83,7 @@ Stil och syfte: Webbsidan har ett färgstarkt och tufft uttryck som vägs mot en
 </table>
 Färgschema: analog
 
-Accentfärg: Gul
+Accentfärg: gult och emellanåt grönt
 
 Typsnitt h1-h3: Speedee, sans-serif (fet)
 
@@ -120,16 +121,13 @@ Analys
 
 <!-- Diskutera och analysera de resultaten du fann. -->
 
-Två första maximal kulör på accentfärgen och den tredje minimal kulör på accentfärgen.
-Karlskrona HK egentligen bara en enda färg tillsammans med kolsvart. Orange ger en aktiv, energiskt nästan varnande uttryck, likt en varningsskylt. Passande färg då hockey är en fysiskt krävande och tuff sport.
+De två första webbplatserna som studerades, Karlskrona HK och McDonalds, använde sig av riklig mängd kulör medan den tredje, Playdead, hade motsatt strategi att använda sig av minimal mängd kulör. Alla tre gav på sina egna sätt ut ett kraftfullt uttryck. McDonalds är formodligen den webbplats som riktar sig mot störst målgrupp, i stort sätt alla som gillar snabbmat, medan Karlskrona HK framförallt riktar sig mot supportrar och Playdead mot spelare som gillar skräckspel. Vi ska analysera webbplatserna lite djupare var för sig.
 
-McDonalds varma gula färg uttrålar gläde. Lite kall och mörk mörk grön som komplement. Ska förmodligen också ge lite naturkänsla och association med miljötänk. Har även lite rött i sig förmodligen för att stimulera användaren och hens aptit. Finns även en del orange färger på sidan som också kan associeras med stimulering av aptit. Lite svårt att kategorisera färgschemat. Kan passa mest in på beskrivningen som brett analogt färgscema där den gröna färgen dämpats med svärta.
+Karlskrona HK använde sig i stort sätt bara av en enda färg tillsammans med kolsvart. Orange ger en aktiv, energiskt nästan varnande uttryck, likt en varningsskylt. Detta är passande då hockey är en fysiskt krävande och tuff lagsport. Den starka orange färgen kompletteras av små gröna klickar färg som är en del av logon. Detta hjälper till att skapa balanas för användaren.
 
-Playdead är den webbplats med mest avvikande tema. Svaga mörka kalla färger som ger ett lågmält men hotfullt och obehagligt uttryck. Motsatt syfte mot McDonalds starka och glada gula färg. Undantaget finns längre ner på sidan, farlig-starkt blodröd färg som står ut i footage från ett av spelen. De lågmälda och skräckfyllda spelen som playdead skapar följer detta tema.
+McDonalds varma gula färg uttrålar gläde. Även här används lite kall och mörk mörk grön som komplement. Den gröna färgen ska förmodligen också ge lite naturkänsla och associeras med miljötänk. Här och där kan man också hitta bitar av det klassiska "McDonalds-röda". Generellt används röd färg för att stimulera användaren och hens aptit. Det finns även en del bruna och orange färger på sidan som också kan associeras mat och stimulera aptiten. Kategoringsmässigt passar färgpaletten mest in på beskrivningen som brett analog där den gröna färgen har dämpats både genom att minska på kulören och att lägga till svärta.
 
-<!-- ### Krav
-
-Skriv ett stycke om dina samlade intryck från resultatet, finns det något värt att nämna, diskutera, att analysera (analys), fick du fram något bra med din studie? [] [] [] -->
+Playdead är den webbplats med mest avvikande tema. Svaga mörka kalla färger som ger ett lågmält men hotfullt och obehagligt uttryck. Det skiljer sig starkt mot McDonalds glada välkomnande gula färg. Både headern och whitespace saknar helt och hållet kulör vilket ändå gör att den första bilden står ut med sin svaga blå värg. Längre ner på sidan står titeln på ett av spelen med farlig-starkt blodröd färg som ställer sig i häftig kontrast mot den i övrigt nedtonade bilden. De lågmälda och skräckfyllda spelen som playdead skapar följer temat på webbsidan mycket väl.
 
 Referenser
 -----------------------
