@@ -1,0 +1,51 @@
+// LOGO CHANGE IMAGE
+$logo: url("../../../assets/img/rabbitOrange.png");
+
+// OPACITY
+$opacity: 0.8;
+
+//BOX
+$border-standard: 3.5px solid #322a47;  // BLIR FÄRGEN PÅ RAMEN!!
+$border-alternative: 3.5px solid #314632;
+$border-hover: 3.5px solid #885424;
+$border-radius: 50px;
+
+// COLORS
+$col-background: linear-gradient(to right,#4b4164, #50456b 5%, #50456b 95%, #4b4164);
+// $col-background: #3a7c94;
+
+$col-box: linear-gradient(#7460a7, #655391 5%, #655391 95%, #5b4b83);
+$col-box-alt: linear-gradient(#7cad7f, #659b68 5%, #6aa06e 95%, #567958);
+$col-box-hover: linear-gradient(#ee933e, #e08B3a 5%, #e08B3a 95%, #c57830);
+
+$col-title: #292138;
+$col-title-alt: #157da3;
+$col-text: #292138;
+$col-text-alt: #fff;
+$col-text-hover: #f5d400;
+
+$col-footer: #3e3653;
+$col-icons: #fff;
+
+//ANIMATION
+$transition: 0.15s all ease;
+$transform-small: scale(1.1);
+$transform-big: scale(1.2);
+
+// FONT STYLE
+$font-title-style: 'Nunito', sans-serif;
+$font-text-style: 'Nunito', sans-serif;
+
+
+// FONT SIZE
+$main-title-size: 3em;
+$main-subtitle-size: 2em;
+$main-paragraph-size: 1.2em;
+$main-line-height: 1.4;
+$margin-bottom-paragraph: $main-paragraph-size * $main-line-height;
+$margin-bottom-title: 0.2em * $main-line-height;
+$letter-spacing: 0.1em;
+
+// SECIAL EFFECTS   (ej använda längre)
+// $text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.281);
+// $box-shadow: 0 5px 1px rgba(0, 0, 0, 0.04);
