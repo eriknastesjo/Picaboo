@@ -1,4 +1,9 @@
-@import 'variables';
+.logo {
+    background-image: $logo;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 126px;
+}
 
 .header {
     margin: 30px 0 25px;
