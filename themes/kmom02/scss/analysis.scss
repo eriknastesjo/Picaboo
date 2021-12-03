@@ -1,5 +1,9 @@
 .spreadsheet {
-    width: 910px;
-    height: 180px;
+    width: 606px;
+    height: 304px;
     margin-bottom: 30px;
+}
+
+.analys-box:last-child {
+    grid-column: span 1;
 }
