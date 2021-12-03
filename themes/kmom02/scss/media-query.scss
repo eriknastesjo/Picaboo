@@ -58,4 +58,9 @@
     .one-column-text {
         max-width: 100%;
     }
+
+    .gallery-container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
 }

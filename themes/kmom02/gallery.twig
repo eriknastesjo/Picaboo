@@ -1,15 +1,49 @@
 {% include 'incl/header.twig' %}
 
 <body>
-	{% include 'incl/nav.twig' %}
+    {% include 'incl/nav.twig' %}
 
-	<div class="main">
-		<div class="container-three-columns">
-			<div class="gallery-img">
-				{{ content }}
-			</div>
+    <div class="main" role="main">
+        {{ content }}
+{# Bara testar meta lite:  #}
+{# <pre> #}
+{# För att få ut meta från _meta-filen: #}
+{# {{dump(pages["_meta"].meta.Images)}} #}
+{# För att få ut meta från aktuella sidan: #}
+{# <pre>
+{{ dump(meta.Image) }}
+{{ dump(meta.image) }}	funkar ej! (ingen fördefinierad variabel kanske utan ngn som vi skapade själva - därmed får sätta stor bokstav?)
+{{ dump(meta.Title) }}	funkar ej (en fördefinierad och då ska det vara med liten bokstav?)
+{{ dump(meta.author) }}
+{{ dump(meta.Author) }}	funkar ej (en fördefinierad och då ska det vara med liten bokstav?)
+{{ dump(meta.title) }}
+</pre> #}
+
+        <div class="gallery-container">
+        {% for image in meta["Images"] %}
+							{# Man kan också skriva meta.Images #}
+            <a href="{{ base_url }}{{ image.url }}" target="_blank">
+                {# <img class="gallery-img" src="{{ base_url }}{{ image.url }}?w=333&h=333&crop-to-fit" alt="{{ image.alt }}" #}
+				<picture>
+					<source media="(min-width:1000px)" srcset="{{ base_url }}{{ image.url }}?w=300&h=300&crop-to-fit&save-as=jpg&q=50">
+					<source media="(min-width:800px)" srcset="{{ base_url }}{{ image.url }}?w=250&h=250&crop-to-fit&save-as=jpg&q=50">
+					<source media="(min-width:520px)" srcset="{{ base_url }}{{ image.url }}?w=400&h=400&crop-to-fit&save-as=jpg&q=50">
+					<source media="(min-width:320px)" srcset="{{ base_url }}{{ image.url }}?w=300&h=300&crop-to-fit&save-as=jpg&q=50">
+					<source media="(min-width:220px)" srcset="{{ base_url }}{{ image.url }}?w=200&h=200&crop-to-fit&save-as=jpg&q=50">
+					<source media="(min-width:10px)" srcset="{{ base_url }}{{ image.url }}?w=190&h=190&crop-to-fit&save-as=jpg&q=50">
+					<img class="gallery-img" alt="{{ image.alt }}">
+				</picture>
+            </a>
+        {% endfor %}
+        </div>
+
+		<div class="video-container">
+			<iframe src="https://www.youtube.com/embed/-qwk9ovBnHc" frameborder="0" allowfullscreen></iframe>
 		</div>
-	</div>
 
-	{% include 'incl/footer.twig' %}
-</body></html>
+    </div>
+
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

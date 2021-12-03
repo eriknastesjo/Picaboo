@@ -1,16 +1,28 @@
 ---
 Title: Gallery
-Description: It's a gallery with pictures.
+Description: It's a gallery with rabbits.
 Template: gallery
+Images:
+    - url: /image/rabbit1.jpg
+      alt: kanin
+    - url: /image/rabbit2.jpg
+      alt: kanin
+    - url: /image/rabbit3.jpg
+      alt: kanin
+    - url: /image/rabbit4.jpg
+      alt: kanin
+    - url: /image/rabbit5.jpg
+      alt: kanin
+    - url: /image/rabbit6.jpg
+      alt: kanin
+    - url: /image/rabbit7.jpg
+      alt: kanin
+    - url: /image/rabbit8.jpg
+      alt: kanin
+    - url: /image/rabbit9.jpg
+      alt: kanin
+Video: dfkmsdkm
 ---
 
-testtext jdjf sdlfj sdlf sldj fsdf
-
-testtext jdjf sdlfj sdlf sldj fsdf asldka sd asld als das d lasd asl dasm dlasm dtesttext jdjf sdlfj sdlf sldj fsdf asldka sd asld als das d lasd asl dasm dlasm d
-
-f sdlfj sdlf sldj fsdf asldka sd asld als df sdlfj sdlf sldj fsdf asldka sd asld als d
-
-![Bild på Erik](%assets_url%/img/sanji.png){.vert-img}
-![Bild på Erik](%assets_url%/img/haj.png){.vert-img}
-
-![Bild på Erik](%assets_url%/img/butt_runner.png){.horiz-img}
+Gallery
+===========
