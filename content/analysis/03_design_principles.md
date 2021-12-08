@@ -64,6 +64,12 @@ Analys
 
 Sammanfattnigsvis så är det av artikelförfattarens åsikt att de tre webbplatserna skiljde sig starkt åt i sin design. De mest framträdande designprinciperna som noterades på Gates Notes var balans, storlek och grid. Detta speglar ett välordnat tankemönster vilket i sin tur passar bra in i syftet att förmedla intellektuella idéer och åsikter. Tyngdpunkten på Usain Bolts blogg var däremot textur, rörelse och djup de mest framträdande designprinciperna vilket passar bra in i syftet att spegla en idrottares liv. Slutligen har vi Seth's blogg som innehållsmässigt hade likheter med Gates Notes. Däremot skiljde stilen sig markant då fokus låg på designprinciper som "negative space" och den motsägande principen om att bryta mot designprinciper på "rätt sätt". För webbplatsens syfte så fungerar detta bra för att väcka känsla av utmanande åsikter och nytänk.
 
+Jämförelse med egen webbplats
+----------------------
+
+Avslutningsvis ska här göras en beskrivning och jämförelse med webbplatsen som du befinner dig på för tillfället. Det är alltid en utmaning att försöka se ett eget verk ur en användares ögon. Webbplatsen ger ett lekfullt och "cartoony" uttryck. De mest framträdande designprinciper som explicit har tillämpats är linjer, färg och djup. Linjer har använts för att rama in viktiga element som rubriker och sidlänkar i navbaren. Färg har använts konsekvent, blå som bakgrundsfärg, rosa för klickbara element och gul (samma färg som kaninloggan) när man håller på klickbara elementen med muspekaren. Ytterligare en designprincip som används här är rörelse då elementen förstoras en aning när man håller med muspekaren. Djup har tillämpats genom att använda subtila gradienter, dels på bakgrundsfärgen och dels på allt som är inramat vilket skapar en viss 3D-effekt.
+Det lite barnsliga uttrycket som webbplatsen får passar kanske inte helt om man vill förmedla kompetens eller allvar. Det är kanske den största anledningen varför den skiljer sig starkt från de tre tidigare beskrivna webbplatserna. En del uppdatering behöver kanske också göras för att de ska bli lika intresseväckande. Bland annat utnyttjas inte whitespace på ett särskilt fiffigt sätt som på Seth's blog och länkar i löpande texter är också svåra att upptäcka.
+
 Referenser
 -----------------------
 
