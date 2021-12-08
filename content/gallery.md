@@ -2,6 +2,7 @@
 Title: Gallery
 Description: It's a gallery with rabbits.
 Template: gallery
+Videos: https://www.youtube.com/embed/-qwk9ovBnHc
 Images:
     - url: /image/rabbit1.jpg
       alt: kanin
@@ -21,7 +22,6 @@ Images:
       alt: kanin
     - url: /image/rabbit9.jpg
       alt: kanin
-Video: dfkmsdkm
 ---
 
 Gallery
