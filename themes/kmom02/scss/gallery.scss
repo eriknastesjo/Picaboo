@@ -11,6 +11,9 @@
     display: block;
     margin: auto;
     transition: $transition;
+    border: $border-standard;
+    border-radius: $border-radius-big;
+
 }
 
 .gallery-img:hover {
@@ -21,6 +24,11 @@
     max-width: 90%;
     height: auto;
     margin: auto;
+
+    iframe {
+        border: $border-standard;
+        border-radius: $border-radius;
+    }
 }
 
 // .video-container >* {
