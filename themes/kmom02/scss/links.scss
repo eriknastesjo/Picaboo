@@ -8,3 +8,10 @@ p {
         color: $col-links;
     }
 }
+
+li {
+    a {
+    text-decoration: underline;
+    color: $col-links;
+}
+}

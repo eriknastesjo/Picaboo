@@ -36,6 +36,13 @@ h6 {
     font-size: $main-subtitle-size;
 }
 
+.main li {
+    font-size: $main-paragraph-size;
+    letter-spacing: $letter-spacing;
+    line-height: $main-line-height;
+    margin-bottom: $margin-bottom-list;
+}
+
 .main p {
     font-size: $main-paragraph-size;
     margin-bottom: $margin-bottom-paragraph;
