@@ -14,4 +14,4 @@ Skriptspråket kan implementeras i andra program än webbläsare. Ett numera van
 
 En Javascriptmotor är en specialiserad programvara som exekverar Javascript, särskilt för webbläsare.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/Javascript">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/Javascript">OBS: Denna information är hämtad från Wikipedia!</a>

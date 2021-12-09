@@ -16,5 +16,5 @@ HTML ger möjlighet att ange ett dokuments struktur (rubriker, styckeindelning m
 
 HTML har kontinuerligt utvecklats, dels genom standardiseringsorganisationer, dels genom att tillverkare av webbläsare och webbservrar infört egna utvidgningar. Genom att man inte hållit sig till en gemensam standard är det vanligt att webbsidor inte helt fungerar med alla webbläsare.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/HTML">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/HTML">OBS: Denna information är hämtad från Wikipedia!</a>
 

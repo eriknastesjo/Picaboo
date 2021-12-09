@@ -13,4 +13,4 @@ Tekniken introducerades av Håkon Wium Lie och Bert Bos 1994 i webbläsaren Argo
 
 Ett XML- eller HTML-baserat dokument har inte på förhand en given utformning utan består av strukturerad text utan stilinformation. Hur dokumentet skrivs ut på papper, på en webbsida, på displayen i en mobiltelefon eller en handdator, bestäms normalt av programmet som hanterar dokumentet (t.ex. webbläsaren), utgående från programmets inställningar. Med CSS är det möjligt att också tillhandahålla en stilmall (eller instruktioner för enskilda element), som anger hur dokumentet kan eller skall visas. Också användaren har möjlighet att tillhandahålla stilmallar, som tillsammans med dokumentet stilmall bestämmer utseendet. CSS ingår inte som en del av XML-språket, men används allmänt till exempel av webbläsare.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/Cascading_Style_Sheets">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/Cascading_Style_Sheets">OBS: Denna information är hämtad från Wikipedia!</a>

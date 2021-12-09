@@ -12,4 +12,4 @@ PHP, rekursiv akronym för PHP: Hypertext Preprocessor (ursprungligen Personal H
 
 Skriptspråket är populärt och jämförs ofta med Active Server Pages (ASP) från Microsoft, eller Java Server Pages (JSP) från Sun Microsystems.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/PHP">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/PHP">OBS: Denna information är hämtad från Wikipedia!</a>

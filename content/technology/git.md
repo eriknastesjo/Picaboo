@@ -18,4 +18,4 @@ Git är i grunden terminalbaserat (CLI). Det finns även tillägg (plugins) till
 
 Det finns flera verktyg som underlättar övergång från eller parallellhantering jämte andra versionshanterare såsom CVS eller Subversion. Det finns också verktyg för att simulera en CVS-server.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/Git_(datorprogram)">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/Git_(datorprogram)">OBS: Denna information är hämtad från Wikipedia!</a>

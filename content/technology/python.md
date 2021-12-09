@@ -14,4 +14,4 @@ Språket utvecklas som öppen källkod. Till språket hör därför flera utveck
 
 Version Python 3.0, som släpptes 2008, var en större översyn av språket som inte är bakåtkompatibel, men mycket kod för den sista tidigare versionen Python 2.7.18 och tidigare har levt kvar länge.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/Python_(programspr%C3%A5k)">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/Python_(programspr%C3%A5k)">OBS: Denna information är hämtad från Wikipedia!</a>

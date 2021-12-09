@@ -12,4 +12,4 @@ SQLite är benämningen på en fri programvara för en databashanterare med SQL,
 
 SQLite är ett populärt val som inbyggd databas för lokal lagring av användaren i programvara som webbläsare.
 
-<ins>OBS: Denna information är hämtad från <a href="https://sv.wikipedia.org/wiki/SQLite">Wikipedia</a>!</ins>
+<a href="https://sv.wikipedia.org/wiki/SQLite">OBS: Denna information är hämtad från Wikipedia!</a>
