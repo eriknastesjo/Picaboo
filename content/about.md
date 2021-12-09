@@ -15,4 +15,12 @@ Slutligen används GITHub för att spara kodens historik på webben. På så sä
 Design
 ==========================
 
-Texten på webbplatsen har anpassats för att vara lättläst genom att jobba med sidans maxbredd, fontstorlek, rad- och bokstavsutrymme. Mer arbete behöver läggas på att anpassa färgsättningen för att förbättra läsligheten.
+De designprinciper som har tillämpats med mest eftertanke är inramning, färg och djup. Viktiga element som rubriker och sidlänkar i navbaren har ramats in med samma typ av ram. Användandet av linjer går också hand i hand med kaninloggan och backgrundsmönstret som finns på varje sida.
+
+Färg har använts konsekvent för att skilja elementen åt, blå färg som bakgrundsfärg och ej klickbara element, rosa färg för klickbara element och gul färg (samma färg som kaninloggan) när man håller på klickbara elementen med muspekaren. Ytterligare en designprincip som används här är rörelse då elementen förstoras en aning när man håller med muspekaren.
+
+Djup har tillämpats genom att använda subtila gradienter, dels på bakgrundsfärgen och dels på allt som är inramat vilket skapar en viss 3D-effekt.
+
+Slutligen har visst arbete lagts på textinnehållet. Fontstilen är mjuk och lekfull för att passa till resten av temat. Färg, fontstorlek, marginal på bredd och höjd, radavstånd och bokstavsavstånd har anpassats för att ge en luftig och lättläst upplevelse.
+
+Programmet som använts för att rita kaninloggan och bakgrundsmönstret är Adobe Flash/Animate.
