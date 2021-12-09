@@ -10,12 +10,6 @@
     // width: 100%;
     display: block;
     margin: auto;
-    transition: $transition;
-    border: $border-standard;
-}
-
-.gallery-img:hover {
-    transform: $transform-small;
 }
 
 .video-container {

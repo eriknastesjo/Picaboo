@@ -15,6 +15,13 @@
     float: left;
 }
 
+.ci-img {
+    transition: $transition;
+}
+.ci-img:hover {
+    transform: $transform-small;
+}
+
 img {
     opacity: $opacity;
     border: $border-standard;
