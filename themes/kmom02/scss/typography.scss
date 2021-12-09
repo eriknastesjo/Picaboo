@@ -42,3 +42,11 @@ h6 {
     letter-spacing: $letter-spacing;
     line-height: $main-line-height;
 }
+
+::selection {
+  background: $col-selection; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+  background: $col-selection; /* Gecko Browsers */
+}
