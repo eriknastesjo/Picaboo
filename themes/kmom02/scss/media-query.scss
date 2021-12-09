@@ -63,4 +63,12 @@
         grid-template-columns: 1fr;
         max-width: 100%;
     }
+
+    .background-lines-left {
+    visibility: hidden;
+}
+
+    .background-lines-right {
+        visibility: hidden;
+}
 }

@@ -1,3 +1,25 @@
+.background-lines-left {
+    background-image: $background-lines;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23%;
+    height: 370px;
+}
+.background-lines-right {
+    background-image: $background-lines;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23%;
+    height: 370px;
+    transform: scaleX(-1);
+}
+
 .logo {
     background-image: $logo;
     background-repeat: no-repeat;
