@@ -6,6 +6,16 @@
     max-height: 200px;
 }
 
+.img-round {
+    border-radius: $border-radius-round;
+}
+
+.shark-container {
+    margin-right: 53px;
+    float: left;
+}
+
 img {
     opacity: $opacity;
+    border: $border-standard;
 }
