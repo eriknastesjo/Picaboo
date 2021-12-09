@@ -13,8 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin-top: 0;
-    margin-bottom: $margin-bottom-title;
+    margin: 0 $margin-bottom-title $margin-bottom-title;
     font-family: $font-title-style;
     text-align: center;
     line-height: $main-line-height;
