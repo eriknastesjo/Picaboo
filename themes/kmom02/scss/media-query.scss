@@ -10,19 +10,22 @@
 
         .site-header {
             flex-wrap: wrap;
-        }
-
-        .nav ul {
-            flex-direction: column;
-            padding-bottom: 1em;
-            gap: 10px;
-
-            li {
-                display: flex;
-                flex-direction: column;
-                text-align: center;
+            .title {
+                margin-top: 0;
             }
         }
+
+        // .nav ul {
+        //     flex-direction: column;
+        //     padding-bottom: 1em;
+        //     gap: 10px;
+
+        //     li {
+        //         display: flex;
+        //         flex-direction: column;
+        //         text-align: center;
+        //     }
+        // }
     }
 
     .horiz-img {
