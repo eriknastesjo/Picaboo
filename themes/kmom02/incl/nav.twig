@@ -1,38 +1,32 @@
-
-
 <div class="header" role="banner">
-{# <div class="background-lines-container">
 
-</div> #}
 <div class="background-lines-left"></div>
 <div class="background-lines-right"></div>
 
-
-
+<a href="{{ base_url }}">
 
     <div class="site-header">
-        {# <div class="background-lines"></div> #}
-        {% if pages["_meta"].meta.logo %}
-        <div class="logo">
-            <a href="{{ base_url }}">
-                {# <img class="vert-img" src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" /> #}
-            </a>
-        </div>
-        {% endif %}
-        <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
-            <a href="{{ base_url }}">
-                <h1>{{ site_title }}</h1>
-                {{ pages["_meta"].meta.tagline|markdown }}
-            </a>
-        </div>
+
+            {% if pages["_meta"].meta.logo %}
+                <div class="logo"></div>
+            {% endif %}
+            <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
+                    <h1>{{ site_title }}</h1>
+                    {{ pages["_meta"].meta.tagline|markdown }}
+            </div>
+
     </div>
+</a>
+
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                    <a href="{{ page.url }}">
-                        <li {% if page.id==current_page.id %} class="active" {% endif %}>{{ page.title }}</li>
-                    </a>
+                        <li {% if page.id==current_page.id %} class="active" {% endif %}>
+                            <a class="no-underline" href="{{ page.url }}">
+                                {{ page.title }}
+                            </a>
+                        </li>
                 {% endfor %}
             </ul>
         </div>

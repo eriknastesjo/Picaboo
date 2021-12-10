@@ -28,7 +28,7 @@ För att mäta webbplatsernas laddningstid användes webbverktyget <a href=https
 Resultat
 -----------------------
 
-<iframe class="spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSPp0U6vPTox2ZUKu_kN33tpo5ba91dVSppeuI_wgiwXTCnqVTyJGOkT9WdJN4x-4o7-80ycMcXwDfe/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe title="Data" class="spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSPp0U6vPTox2ZUKu_kN33tpo5ba91dVSppeuI_wgiwXTCnqVTyJGOkT9WdJN4x-4o7-80ycMcXwDfe/pubhtml?widget=true&amp;headers=false"></iframe>
 
 ## SVT nyheter
 ![Skärmdump webbplats SVT Nyheter](%assets_url%/img/svtnyheter.png){.horiz-img}
