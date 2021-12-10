@@ -30,7 +30,7 @@
 }
 
 .header {
-    margin: 30px 0 25px;
+    margin: 30px 0 35px;
     display: flex;
     flex-direction: column;
     // gap: 20px;
@@ -41,6 +41,7 @@
     border-radius: $border-radius;
     // box-shadow: $box-shadow;
     margin: auto;
+    margin-bottom: 15px;
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -65,7 +66,7 @@
     transform: $transform-small;
 }
 
-.nav ul {
+#nav {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -73,15 +74,17 @@
     padding: 0;
 }
 
-.nav ul li {
+#nav p {
+    margin: 0;
     border: $border-alternative;
     border-radius: $border-radius;
     background-image: $col-box-alt;
     padding: 0.5em 1.5em;
     transition: $transition;
+    color: $col-navtext;
 }
 
-.nav ul li:hover {
+#nav p:hover {
 
     transform: $transform-big;
     background-image: $col-box-hover;
