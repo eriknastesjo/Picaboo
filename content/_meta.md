@@ -1,6 +1,6 @@
 ---
 Logo: image/rabbitYellow.png
-Tagline: My pico-site.
+Tagline: Min pico-sida
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/eriknastesjo/Picaboo
