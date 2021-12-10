@@ -70,28 +70,28 @@
     transform: $transform-small;
 }
 
-#nav {
+.nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     gap: 20px;
     padding: 0;
-}
 
-#nav p {
-    margin: 0;
-    border: $border-alternative;
-    border-radius: $border-radius;
-    background-image: $col-box-alt;
-    padding: 0.5em 1.5em;
-    transition: $transition;
-    color: $col-navtext;
-}
+    p {
+        margin: 0;
+        border: $border-alternative;
+        border-radius: $border-radius;
+        background-image: $col-box-alt;
+        padding: 0.5em 1.5em;
+        transition: $transition;
+        color: $col-navtext;
+    }
 
-#nav p:hover {
+    p:hover {
 
-    transform: $transform-big;
-    background-image: $col-box-hover;
-    border: $border-hover;
+        transform: $transform-big;
+        background-image: $col-box-hover;
+        border: $border-hover;
+    }
 }
