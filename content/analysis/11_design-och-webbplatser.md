@@ -7,7 +7,7 @@ Description: Analys av webbplatsen Technotica
 Technotica
 =======================
 
-I denna rapporten tittar vi på huvuruvida en webbplats använder sig av vedertaget accepterade designprinciper. Utifrån en <a href="https://www.canva.com/learn/design-elements-principles/">artikel som beskriver 20 av dessa principer</a> analyseras och diskuteras webbplatsen och dess potential att väcka intresse hos användaren. DE DESIGNELEMENT SOM STÅR I SÄRSKILD FOKUS ÄR ........
+I denna rapporten tittar vi på huvuruvida en webbplats använder sig av vedertaget accepterade designprinciper. Utifrån en <a href="https://www.canva.com/learn/design-elements-principles/">artikel som beskriver 20 av dessa principer</a> analyseras och diskuteras webbplatsen och dess potential att väcka intresse hos användaren.
 
 Urval
 -----------------------
